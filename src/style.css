@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 .container-general{
@@ -50,7 +50,7 @@
 }
 
 .logo{
-  width: min(390px, 100%);
+  width: min(400px, 100%);
 }
 
 .container-text{
@@ -65,9 +65,10 @@
 }
 
 .paragraph{
-  font-size: clamp(12px, 2vw, 16px);
+  font-size: clamp(16px, 2vw, 18px);
   font-weight: 300; 
   color: var(--paragraph-color);
+  max-width: 750px;
 }
 
 .whatsapp{
